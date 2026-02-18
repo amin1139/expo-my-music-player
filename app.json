@@ -9,19 +9,21 @@
       "package": "com.amin.localmusicplayer",
       "permissions": [
         "READ_MEDIA_AUDIO",
-        "READ_EXTERNAL_STORAGE"
+        "READ_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
       ]
     },
     "splash": {
       "backgroundColor": "#111111"
     },
     "plugins": [
-      [
-        "expo-av",
-        {
-          "isBackgroundAudioEnabled": true
-        }
-      ]
-    ]
+      "react-native-track-player"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "82b96a11-5f81-41e4-a14e-e47b4a34d82e"
+      }
+    }
   }
 }

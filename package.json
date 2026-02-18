@@ -8,13 +8,18 @@
     "android": "expo run:android"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-native-community/slider": "4.5.2",
     "babel-preset-expo": "^54.0.10",
     "expo": "~51.0.0",
     "expo-av": "~14.0.0",
     "expo-file-system": "~17.0.0",
+    "expo-linear-gradient": "~13.0.2",
     "expo-media-library": "~16.0.0",
+    "expo-router": "~3.5.24",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
-    "react-native": "0.74.0"
+    "react-native": "0.74.0",
+    "react-native-track-player": "^4.1.2"
   }
 }
