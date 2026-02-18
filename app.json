@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Local Music Player",
+    "slug": "expo-local-music-player",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.amin.localmusicplayer",
+      "permissions": [
+        "READ_MEDIA_AUDIO",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "isBackgroundAudioEnabled": true
+        }
+      ]
+    ]
+  }
+}
