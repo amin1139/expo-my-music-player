@@ -4,14 +4,16 @@
     "slug": "expo-local-music-player",
     "version": "1.0.0",
     "orientation": "portrait",
+    "userInterfaceStyle": "dark",
     "android": {
       "package": "com.amin.localmusicplayer",
       "permissions": [
         "READ_MEDIA_AUDIO",
-        "READ_EXTERNAL_STORAGE",
-        "android.permission.RECORD_AUDIO",
-        "android.permission.MODIFY_AUDIO_SETTINGS"
+        "READ_EXTERNAL_STORAGE"
       ]
+    },
+    "splash": {
+      "backgroundColor": "#111111"
     },
     "plugins": [
       [
@@ -20,12 +22,6 @@
           "isBackgroundAudioEnabled": true
         }
       ]
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "82b96a11-5f81-41e4-a14e-e47b4a34d82e"
-      }
-    },
-    "owner": "amin-ansari"
+    ]
   }
 }
